@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #584b4f;
+    height: 3em;
+    opacity: 95%;
+    z-index: 1000;
+}
+
+nav {
+    margin-top: -2em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 0 0 18em;
+}
+
+nav li {
+
+    margin-right: 1.5em;
+}
+
+nav a {
+    color: rgb(206, 202, 202);
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(113, 189, 113);
+}
+
+#iconeA {
+    width: 2em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 2.1em;
+}
+
+#iconeV {
+    width: 2.2em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.4em 2em 0 0;
+}
+
+.a {
+    background-color:#343233;
+    padding: 2em 1em 1.2em 1em;
+}
+
+/*CSS MAIN */
+
+.atomdescription {
+    background-image: radial-gradient(ellipse closest-side at 50% 50%, #3a3f45, #37383c 25%, #343233);
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+
+.allatom {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    clip-path: circle(45% at 45% 45%);
+    background-color: white;
+    margin: 7em 0 0 4em;
+    width: 39em;
+    height: 34em;
+    z-index: 1;
+}
+
+#atom2 {
+    width: 5em;
+    margin: 2em 0 0 12.5em;
+}
+
+.present {
+    text-align: center;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 1em 8em 0 4em;
+    font-size: 14px;
+}
+
+.icones {
+    margin: 1.5em 0 0 10em; 
+}
+
+.icones i {
+    font-size: 30px;
+    letter-spacing: 1em;
+    color: #78b0a0;
+}
+
+#rocketatom {
+    margin: 5em 0 0 -10em;
+    transform: rotate(15deg);
+
+}
+
+.slogan1 {
+    color: #efdab9;
+    margin: 2.5em 1em 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.7em;
+}
+
+#planetatom {
+    width: 15em;
+    margin: -9em 0 0 -8em;
+}
+
+/* CSS TABLE */
+
+table {
+    border: 2px solid #4e4b4d;
+    border-radius: 15px;
+    margin: -4em 0 0 7em;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #efdab9;
+    font-size: 20px;
+    text-align: center;
+    width: 13em;
+}
+
+.border {
+    border-bottom: 1px solid #4e4b4d;
+}
+
+table td {
+    padding: 1em 1em 1em 1em;
+}
+
+.a1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #efdab9;
+    text-decoration: none;
+}
+
+.a1:hover {
+    color: rgba(231, 209, 13, 0.753);
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #efdab9;
+}
+
+.button1 {
+    background-color: #f8d26a;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color:  #4e4b4d;
+    text-decoration: none;
+}
+
+.button1 i {
+    margin-right: 0.5em;
+}
+
+.button1:hover {
+    background-color: #ffc31f;
+}
+
+/* CSS SCREEN */
+
+.tablescreen {
+    display: flex;
+    flex-direction: row;
+}
+
+.screenshot {
+    z-index: 1;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+}
+
+#screenatom {
+    width: 40em;
+    margin: -8em 0 0 -0.5em;
+}
+
+#octobounce {
+    animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce {
+        from {transform: translateY(0);}
+        to   {transform: translateY(-30px);}
+}
+
+
+.octo {
+    margin: -3em 0 0 5em;
+}
+
+/* CSS FOOTER */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #7c7274;
+    height: 3em;
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2em 0 0;
+    opacity: 80%;
+    padding-top: 0.5em;
+}

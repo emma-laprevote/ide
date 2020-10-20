@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #7c7274;
+    height: 4em;
+    opacity: 95%;
+    z-index: 1000;
+}
+
+nav {
+    margin-top: -2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 0 0 18em;
+}
+
+nav li {
+
+    margin-right: 1.5em;
+}
+
+nav a {
+    color: rgb(206, 202, 202);
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#iconeA {
+    width: 3em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 3.1em;
+}
+
+#iconeV {
+    width: 3.2em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.5em 2em 0 0;
+}
+
+/* CSS MAIN */
+
+.expo {
+    max-width: 100%;
+    display: flex; 
+    flex-direction: row;
+}
+
+.atom {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%233cff92'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 40%;
+    height: 35.5em;
+}
+
+#illusatom {
+    height: 10em;
+    margin: 8em 0 0 7em;
+    animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce {
+        from {transform: translateY(0);}
+        to   {transform: translateY(-20px);}
+   }
+
+.sublime {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-color: #000000;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23403d40'/%3E%3Cstop offset='1' stop-color='%23888288'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 40%;
+    height: 35.5em;
+    margin-left: -8.3em;
+    
+}
+
+#illussublime {
+    height: 10em;
+    margin: 8em 0 0 14em;
+    animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce {
+        from {transform: translateY(0);}
+        to   {transform: translateY(-20px);}
+}
+    
+.visual {
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-color: #623fcc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23623fcc' width='11' height='11'/%3E%3Crect fill='%235d44cf' x='10' width='11' height='11'/%3E%3Crect fill='%235749d3' y='10' width='11' height='11'/%3E%3Crect fill='%23514ed6' x='20' width='11' height='11'/%3E%3Crect fill='%234b52d9' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%234356dc' y='20' width='11' height='11'/%3E%3Crect fill='%233b5bdf' x='30' width='11' height='11'/%3E%3Crect fill='%23325fe1' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%232762e3' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%231966e6' y='30' width='11' height='11'/%3E%3Crect fill='%23006ae8' x='40' width='11' height='11'/%3E%3Crect fill='%23006dea' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%230071eb' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%230074ed' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%230078ef' y='40' width='11' height='11'/%3E%3Crect fill='%23007bf0' x='50' width='11' height='11'/%3E%3Crect fill='%23007ef1' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%230082f2' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%230085f3' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%230088f4' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23008bf5' y='50' width='11' height='11'/%3E%3Crect fill='%23008ef6' x='60' width='11' height='11'/%3E%3Crect fill='%230091f6' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%230094f6' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%230097f7' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%230099f7' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23009cf7' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23009ff7' x='70' width='11' height='11'/%3E%3Crect fill='%2300a2f7' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2300a4f7' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2300a7f7' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2300aaf7' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2300acf6' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2300aff6' x='80' width='11' height='11'/%3E%3Crect fill='%2300b2f6' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%2300b4f5' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2300b7f5' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2300b9f4' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2300bcf4' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2300bef3' x='90' width='11' height='11'/%3E%3Crect fill='%2300c0f3' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2300c3f2' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2300c5f2' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%2308c8f1' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%2321caf1' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%2330ccf0' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%233bcef0' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%2345d1ef' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%234ed3ef' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%2356d5ef' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%235dd7ee' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%2365d9ee' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%236cdcee' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2373deee' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2379e0ee' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2380e2ed' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2386e4ed' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%238ce6ee' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%2392e8ee' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%2398eaee' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 40%;
+    height: 35.5em;
+    margin-left: -8.3em;
+}
+
+#illusvisual {
+    height: 10em;
+    margin: 8em 0 0 15em;
+    animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce {
+        from {transform: translateY(0);}
+        to   {transform: translateY(-20px);}
+}
+
+.atom, .visual, .sublime img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+}
+
+.atom:hover, .visual:hover, .sublime:hover {
+        opacity: .80;
+}
+
+
+/* CSS BUTTONS */
+
+.example_e {
+    border: none;
+    background: #6AC591;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.example_e:hover {
+    color: white !important;
+    font-weight: 300 !important;
+    letter-spacing: 7px;
+    background: #404040;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.button_cont {
+    margin: 0.5em 0 0 9em;
+}
+
+.example_e1 {
+    border: none;
+    background: #EA9B16;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.example_e1:hover {
+    color: #404040 !important;
+    font-weight: 300 !important;
+    letter-spacing: 5px;
+    background: white;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.button_cont1 {
+    margin: 0.5em 0 0 13em;
+}
+
+.example_e2 {
+    border: none;
+    background: #06367C;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: "Lato", Arial, sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.example_e2:hover {
+    color: #404040 !important;
+    font-weight: 300 !important;
+    letter-spacing: 5px;
+    background: rgb(172, 223, 223);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.button_cont2 {
+    margin: 0.5em 0 0 12em;
+}
+
+/* CSS LIENS */
+
+.icones {
+    margin: 1.5em 0 0 7.5em; 
+}
+
+.icones i {
+    font-size: 30px;
+    letter-spacing: 1em;
+    color: #404040;
+}
+
+.icones2 {
+    margin: 1.5em 0 0 14.5em; 
+}
+
+.icones2 i {
+    font-size: 30px;
+    letter-spacing: 1em;
+    color: white;
+}
+
+.icones3 {
+    margin: 1.5em 0 0 16em; 
+}
+
+.icones3 i {
+    font-size: 30px;
+    letter-spacing: 1em;
+    color: rgb(28, 100, 158);
+}
+
+/* CSS FOOTER */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #7c7274;
+    height: 4em;
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2em 0 0;
+    opacity: 80%;
+    padding-top: 0.5em;
+}
