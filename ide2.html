@@ -4,7 +4,6 @@
     <head>
         <title>Sublime Text</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="ide2.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -31,48 +30,96 @@
                     <li><a href="ide3.html">Visual studio code</a></li>
                 </ul>
             </nav>
-            </section>
         
         </header>
 
-        <main class="sublimtext">
+        <main class="sublimtext"> <!--Slogan + slide screenshot + présentation de sublime + liens-->
 
+          <section class="slogslide">
 
             <section class="slogan">
                 <span>L'exactitude (dans les ouvrages d'esprit )
-                                <br> 
-                                est le sublime des sots_</span>
+                      <br> 
+                      est le sublime des sots_</span>
+            </section>
+
+            <section class="telechargement">
+            <a class="button1" href="https://www.sublimetext.com/" target="_blank" rel="nofollow noopener"><i class="fas fa-download"></i>Download for windows</a></td>
+            <p class="version">Sublime Text 3 (Build 3211)</p>
+            <a class="log" href="https://www.sublimetext.com/3" target="_blank">changelog</a>
             </section>
 
             <section class="carousel">
-
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/sublim1.png" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="images/sublim2.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="images/sublim3.png" alt="Third slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+              <div id="slider"> <!--slide pur css-->
+                <figure>
+                  <img src="images/sublim1.png" alt="screenshot sublime text">
+                  <img src="images/sublim2.png" alt="screenshot sublime text">
+                  <img src="images/sublim3.png" alt="screenshot sublime text">
+                </figure>
               </div>
-
             </section>
+
+          </section>
+
+          <section class="blocarticle"><!--article = logo + presentation de sublime text + liste des fonctionnalités-->
+
+            <article class="present">
+
+              <section class="logosub2">
+              <img id="logosublim2" src="images/sublimlogo2.png" alt="logo Sublime Text">
+              </section>
+
+              <section class="icones2">
+                <a href="https://github.com/SublimeText" target="_blank"><i class="fab fa-github-square"></i></i></a>
+                <a href="https://www.facebook.com/st3pl/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/sublime_text" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              </section>
+              
+              <section class="description">
+                <p class="history">Sublime Text est un éditeur de texte générique codé en C++ et Python, 
+                  disponible sur Windows, Mac et Linux. Le logiciel a été conçu tout d'abord comme une 
+                  extension pour Vim, riche en fonctionnalités.<br>
+                  Depuis la version 2.0, sortie le 26 juin 20122, l'éditeur prend en charge 44 langages de 
+                  programmation majeurs, tandis que des plugins sont souvent disponibles pour les langages 
+                  plus rares. </p>
+
+                <h2 class="fonction">Fonctionnalités</h2>
+
+                <p class="fonctionplus">Sublime Text intègre la plupart des fonctionnalités de base d'un 
+                  éditeur de texte, dont la coloration syntaxique personnalisable, l’auto complétion, 
+                  un système de plugins… L'éditeur propose cependant des fonctions plus avancées, dont :</p>
+
+                <section class="liste">
+                <ul>
+                    <li>Minimap : prévisualisation de tout le fichier dans une barre latérale ;</li>
+                    <li>Sélection et édition dans plusieurs sections de code en parallèle ;</li>
+                    <li>Marque-page au sein même des fichiers ;</li>
+                    <li>Sauvegarde automatique ;</li>
+                    <li>Recherche et remplacement par expressions régulières ;</li>
+                    <li>Support des macros et de plugins en Python ;</li>
+                    <li>Personnalisation des raccourcis clavier.</li>
+                </ul>
+                </section>
+
+                <p class="fonctionplus">
+                  Le logiciel propose également d'importer des packages (pour ajouter des langages ou bien 
+                  des fonctionnalités de Sublime-Text). La version 3 du logiciel propose directement d'installer 
+                  PackageControl pour ajouter certains thèmes etc.5</p>
+              </section>
+
+            </article>
+            
+          </section>
+
         </main>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <footer>
+          <section class="liens2">
+              <a href="https://atom.io/" target="_blank"><img id="iconeA" src="images/logoatom.png" alt="icone atom"></a>
+              <a href="https://www.sublimetext.com/" target="_blank"><img id="iconeS" src="images/logosublime.png" alt="icone sublimetext"></a>
+              <a href="https://code.visualstudio.com/" target="_blank"><img id="iconeV" src="images/logovisual.png" alt="icone visual studio code"></a>
+          </section>
+      </footer>
+
     </body>
     </html>
