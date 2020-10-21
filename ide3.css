@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #444;
+}
+
+/* CSS HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #2C2C32;
+    height: 3em;
+    opacity: 95%;
+    z-index: 1000;
+    box-shadow: black 0 0 5px 0;
+}
+
+nav {
+    margin-top: -2em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 0 0 14em;
+}
+
+nav li {
+
+    margin-right: 1.5em;
+}
+
+nav a {
+    color: rgb(206, 202, 202);
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#iconeA {
+    width: 2em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 2.1em;
+}
+
+#iconeV {
+    width: 2.2em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.4em 2em 0 0;
+}
+
+.a {
+    background-color: black;
+    padding: 2em 1em 1em 1em;
+}
+
+/* CSS ARTICLE */
+
+.prescreen {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin: 6em 0 0 2em;
+}
+
+.slogan {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#logovisual2 {
+    width: 17em;
+    margin: 1em 0 0 11em;
+}
+
+.icones3 {
+    margin: -0.5em 0 0 17em; 
+}
+
+.icones3 i {
+    font-size: 22px;
+    letter-spacing: 1em;
+    color: white;
+}
+
+#screenvisual {
+    width: 40em;
+}
+
+.screen {
+    margin: 5.5em 4em 0 0;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+}
+
+.paragraphe {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 2em 4em 0 4em;
+}
+
+/* CSS SECTION TELECHARGEMENT */
+
+.telechargement {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 2em;
+    height: 18em;
+    border-bottom: solid 0.5px #2C2C32;
+    
+}
+
+.windows {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+}
+
+#logowindows {
+    width: 7em;
+}
+
+.logowin {
+    margin: 2em 0 1em 10.5em;
+}
+
+.bouton1 {
+    background-color: #005ba4;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Nunito', sans-serif;
+    margin: 1em 4em 0 5em;
+}
+
+span {
+    font-size: 11px;
+}
+
+.bouton1 a {
+    font-size: 20px;
+    color:  white;
+    text-decoration: none;
+}
+
+.bouton1 a:hover {
+    color: white;
+}
+
+.bouton1 i {
+    margin-right: 1em;
+    color: white;
+}
+
+.linux {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+}
+
+#logolinux {
+    width: 7em;
+}
+
+.logolin {
+    margin: 2em 0 1em 8em; 
+}
+
+.boutons2 {
+    display: flex;
+    flex-direction: row;
+    width: 30em;
+    margin: -1.5em 0 0 -1.1em;
+}
+
+.bouton2ubu, .bouton2lin {
+    background-color: #005ba4;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Nunito', sans-serif;
+    margin: 1em 7em 0 5em;
+}
+
+span {
+    font-size: 11px;
+}
+
+.bouton2ubu a, .bouton2lin a {
+    font-size: 20px;
+    color:  white;
+    text-decoration: none;
+}
+
+.bouton2ubu, .bouton2lin a:hover {
+    color: white;
+}
+
+.bouton2ubu, .bouton2lin i {
+    margin-right: 1em;
+    color: white;
+}
+
+.bouton2ubu i {
+    margin-right: 0.5em;
+}
+
+.bouton2lin {
+    margin-left: -0.5em;
+}
+
+.apple {
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoapple {
+    margin: 3em 0 1em 8em; 
+}
+
+.bouton3 {
+    background-color: #005ba4;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Nunito', sans-serif;
+    margin: 0.5em 7em 0 3em; 
+}
+
+span {
+    font-size: 11px;
+}
+
+.bouton3 a {
+    font-size: 20px;
+    color:  white;
+    text-decoration: none;
+}
+
+.bouton3 a:hover {
+    color: white;
+}
+
+.bouton3 i {
+    margin-right: 1em;
+    color: white;
+}
+
+/* CSS FONCTIONNALITEES VISUAL */
+
+.fonction {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 30em;
+}
+
+.meet {
+    display: flex;
+    flex-direction: column;
+}
+
+#intelli, #debo, #com, #iconesext, #illusdep {
+    width: 15em;
+    margin-top: 1em;
+}
+
+/* CSS INTELLISENSE */
+
+.meet {
+    display: flex;
+    flex-direction: column;
+}
+
+#intelli {
+    margin: 1em 1em 0 1em;
+}
+
+.intellisense {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0.5em 0 0 1.1em;
+    color: #444;
+}
+
+.parameet {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 0.5em 2em 0 1.5em;
+    text-align: left;
+    color: #444;
+}
+
+/* CSS DEBOGAGE */
+
+.debogage {
+    display: flex;
+    flex-direction: column;
+}
+
+#debo {
+    margin: 1em 1em 0 -0.5em;
+}
+
+.debogageprint {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 1em 0 0 1.1em;
+    color: #444;
+}
+
+.paraprint {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 0.5em 2em 0 1.5em;
+    text-align: left;
+    color: #444;
+}
+
+/* CSS GIT COMMAND */
+
+.git {
+    display: flex;
+    flex-direction: column;
+}
+
+#com {
+    margin: 1em 1em 0 0.4em;
+}
+
+.gitcommand {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0.5em 0 0 1.1em;
+    color: #444;
+}
+
+.paragit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 0.5em 2em 0 1.5em;
+    text-align: left;
+    color: #444;
+}
+
+/* CSS PERSONNALISABLE */
+
+
+
+
+
+
+
+
