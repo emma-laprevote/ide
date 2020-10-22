@@ -46,16 +46,16 @@ nav a:hover {
     color: white;
 }
 
-#iconeA {
+#iconeA1 {
     width: 2em;
     margin-top: 0.2em;
 }
 
-#iconeS, #iconeV {
+#iconeS1, #iconeV1 {
     width: 2.1em;
 }
 
-#iconeV {
+#iconeV1 {
     width: 2.2em;
 }
 
@@ -69,6 +69,18 @@ nav a:hover {
 .a {
     background-color: black;
     padding: 2em 1em 1em 1em;
+}
+
+/* CSS HEADER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    nav ul {
+        margin: 0 0 0 3em;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
 }
 
 /* CSS ARTICLE */
@@ -94,11 +106,11 @@ nav a:hover {
 
 #logovisual2 {
     width: 17em;
-    margin: 1em 0 0 11em;
+    margin: 1em 0 0 10em;
 }
 
 .icones3 {
-    margin: -0.5em 0 0 17em; 
+    margin: -0.5em 0 0 15.5em; 
 }
 
 .icones3 i {
@@ -109,11 +121,11 @@ nav a:hover {
 
 #screenvisual {
     width: 40em;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.5);
 }
 
 .screen {
     margin: 5.5em 4em 0 0;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.5);
 }
 
 .paragraphe {
@@ -131,7 +143,7 @@ nav a:hover {
     background-color: white;
     margin-top: 2em;
     height: 18em;
-    border-bottom: solid 0.5px #2C2C32;
+    margin-bottom: 0.3em;;
     
 }
 
@@ -371,6 +383,358 @@ span {
 
 /* CSS PERSONNALISABLE */
 
+.extensible {
+    display: flex;
+    flex-direction: column;
+}
+
+#iconesext {
+    margin: 1em 1em 0 0.4em;
+}
+
+.custom {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0.5em 0.5em 0 1.1em;
+    color: #444;
+}
+
+.paraext {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 0.5em 2em 0 1.5em;
+    text-align: left;
+    color: #444;
+}
+
+/* CSS DEPLOIEMENT */
+
+.deploy {
+    display: flex;
+    flex-direction: column;
+}
+
+#illusdep {
+    margin: 1em 1em 0 0.4em;
+}
+
+.facility {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0.5em 0.5em 0 1.1em;
+    color: #444;
+}
+
+.paradeploi {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin: 0.5em 2em 0 1.5em;
+    text-align: left;
+    color: #444;
+}
+
+/* CSS MAIN + FOOTER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    /*css responsive article */
+ 
+    .presentation {
+        margin: 4em 0 0 0;
+    }
+    
+    .slogan {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    #logovisual2 {
+        width: 13em;
+        margin: -0.3em 0 0 4em;
+    }
+    
+    .icones3 {
+        margin: -0.5em 0 0 10em; 
+    }
+    
+    .icones3 i {
+        font-size: 18px;
+    }
+    
+    #screenvisual {
+        width: 25em;
+        box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+    }
+    
+    .screen {
+        margin: 5.5em 1em 0 0;
+    }
+    
+    .paragraphe {
+        text-align: center;
+        margin: 1em 1.5em 0 1.5em;
+        font-size: 12px;
+    }
+
+    /* css responsive telechargement */
+
+    .telechargement {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-top: 2em;
+        height: 14em;
+        margin-bottom: 0.3em;; 
+    }
+    
+    .windows {
+        width: 30em;
+    }
+    
+    #logowindows {
+        width: 4em;
+    }
+    
+    .logowin {
+        margin: 2em 0 1em 5em;
+    }
+    
+    .bouton1 {
+        background-color: #005ba4;
+        padding: 0.5em 0 0.5em 0;
+        text-align: center;
+        line-height: 1em;
+        font-family: 'Nunito', sans-serif;
+        width: 8em;
+        margin-left: 3em;
+    }
+    
+    span {
+        font-size: 9px;
+    }
+    
+    .bouton1 a {
+        font-size: 10px;
+        color:  white;
+        text-decoration: none;
+    }
+    
+    .bouton1 i {
+        margin-right: 0.5em;
+        color: white;
+    }
+    
+    .linux {
+        margin-left: 1em;
+    }
+    
+    #logolinux {
+        width: 4em;
+    }
+    
+    .logolin {
+        margin: 2em 0 1em 6em; 
+    }
+    
+    .boutons2 {
+        display: flex;
+        flex-direction: row;
+        width: 30em;
+        margin: -1.5em 0 0 0;
+    }
+    
+    .bouton2ubu, .bouton2lin {
+        background-color: #005ba4;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        text-align: center;
+        line-height: 1em;
+        font-family: 'Nunito', sans-serif;
+        margin: 1.7em 7em 0 2em;
+    }
+
+    .bouton2ubu a, .bouton2lin a {
+        font-size: 10px;
+    }
+
+    .bouton2ubu, .bouton2lin i {
+        margin-right: 1em;
+        color: white;
+    }
+    
+    .bouton2ubu i {
+        margin-right: 0.5em;
+    }
+    
+    .bouton2lin {
+        margin-left: -0.5em;
+    }
+     
+    .logoapple {
+        margin: 2em 0 1em -7em;
+    }
+    
+    #logomac {
+        width: 3.5em;
+    }
+
+    .bouton3 {
+        background-color: #005ba4;
+        padding: 0.5em 0 0.5em 0;
+        text-align: center;
+        line-height: 1em;
+        font-family: 'Nunito', sans-serif;
+        margin: 0.7em 0 0 -9em;
+        width: 8em;
+    }
+    
+    .bouton3 a {
+        font-size: 10px;
+        color:  white;
+        text-decoration: none;
+    }
+
+    /* css responsive fonctionnalités */
+
+    .fonction {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    /*css responsive intellisense */
+
+    .meet {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    /* css responsive debogage */
+
+    .debogage {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #debo {
+        margin: 1em 1em 0 1em;
+    }
+
+    .responsive2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .debogageprint {
+        margin: 1em 2em 0 2.5em;
+    }
+    
+    .paraprint {
+        margin: 0.5em 2em 0 3.5em;
+    }
+
+    /* css responsive commande git */
+
+    .git {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #com {
+        margin: 1em 1em 0 1em;
+    }
+    
+    .responsive3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.8em;
+    }
+
+    .paragit {
+        margin: 0.5em 2.5em 0 1.5em;
+    }
+
+    /* css responsive personnalisable */
+
+    .extensible {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #iconesext {
+        margin: 1em 1em 0 1em;
+    }
+
+    .responsive4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5em;
+    }
+
+    /* css responsive deploiement */
+
+    .deploy {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #illusdep {
+        margin: 1em 1em 0 1em;
+    }
+
+    .responsive5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    
+
+    
+
+    
+    
+    
+
+
+}
+
+/* CSS FOOTER */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #7c7274;
+    height: 2em;
+    padding-bottom: 2em;
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2em 0 0;
+    opacity: 80%;
+    padding-top: 1em;
+}
+
+#iconeA {
+    width: 2em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 2.1em;
+}
+
+#iconeV {
+    width: 2.2em;
+}
 
 
 

@@ -41,16 +41,16 @@ nav a:hover {
     color: rgb(206, 202, 202);
 }
 
-#iconeA {
+#iconeA1 {
     width: 3em;
     margin-top: 0.2em;
 }
 
-#iconeS, #iconeV {
+#iconeS1, #iconeV1 {
     width: 3.1em;
 }
 
-#iconeV {
+#iconeV1 {
     width: 3.2em;
 }
 
@@ -69,6 +69,18 @@ nav a:hover {
 .border {
     border-right: solid white 0.5px; 
     padding-right: 3em;
+}
+
+/* CSS HEADER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    nav ul {
+        margin: 0 0 0 17em;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
 }
 
 /* CSS CAROUSEL */
@@ -95,13 +107,13 @@ div#slider figure {
 div#slider figure img { 
     width: 20%; 
     height: auto; 
-    float: center; 
+ 
 }
 
 div#slider { 
     width: 60%; 
     max-width: 900px; 
-    overflow: hidden 
+    overflow: hidden; 
 }
 
 @keyframes slidy {
@@ -141,7 +153,6 @@ body {
 
 .slogan {
     margin: 4em 3em 2.5em 1em;
-    text-align: center;
     font-size: 30px;
     line-height: 45px;
     color: #fff;
@@ -204,7 +215,7 @@ span {
 
 #logosublim2 {
     width: 15em;
-    margin: 6em 2em 0 0;
+    margin: 7em 2em 0 0;
     float: right;
 }
 
@@ -237,20 +248,16 @@ span {
     text-align: right;
 }
 
-.fonction {
-    font-size: 1.2em;
-    color: rgb(61, 61, 61);
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: normal;
-    margin: 2em 17em 0 0;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 3px;
-    padding: 0.5em 1em 0.5em 1em;
-}
 
 .fonctionplus {
+    margin-top: 3em;
+    line-height: 1.3em;
+    color: #555;
+    font-size: 16px;
+    text-align: left;
+}
+
+.fonctionplus2 {
     margin-top: 1em;
     line-height: 1.3em;
     color: #555;
@@ -258,9 +265,12 @@ span {
     text-align: left;
 }
 
+
+
 .liste ul {
     list-style: square;
     margin-left: 2em;
+    margin-top: 1em;
 }
 
 .liste li {
@@ -268,6 +278,34 @@ span {
     color: #555;
     font-size: 14px;
     text-align: left;
+}
+
+/* CSS MAIN + FOOTER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    .carousel {
+        margin: 1em 0 0 13em;
+        width: auto;
+    }
+  
+    .sublimtext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slogan {
+        text-align: center;
+    }
+
+    .telechargement {
+        margin-left: 5em;
+    }
+
+    .present {
+        width: 100%;
+        margin-top: 1em;
+    }
+
 }
 
 /* CSS FOOTER */
@@ -287,4 +325,17 @@ footer {
     margin: 0 2em 0 0;
     opacity: 80%;
     padding-top: 1em;
+}
+
+#iconeA {
+    width: 3em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 3.1em;
+}
+
+#iconeV {
+    width: 3.2em;
 }

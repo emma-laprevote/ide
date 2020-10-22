@@ -41,16 +41,16 @@ nav a:hover {
     color: rgb(113, 189, 113);
 }
 
-#iconeA {
+#iconeA1 {
     width: 2em;
     margin-top: 0.2em;
 }
 
-#iconeS, #iconeV {
+#iconeS1, #iconeV1 {
     width: 2.1em;
 }
 
-#iconeV {
+#iconeV1 {
     width: 2.2em;
 }
 
@@ -64,6 +64,18 @@ nav a:hover {
 .a {
     background-color:#343233;
     padding: 2em 1em 1.2em 1em;
+}
+
+/* CSS HEADER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    nav ul {
+        margin: 0 0 0 7em;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
 }
 
 /*CSS MAIN */
@@ -195,26 +207,103 @@ span {
 
 .screenshot {
     z-index: 1;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.5);
 }
 
 #screenatom {
     width: 40em;
     margin: -8em 0 0 -0.5em;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
 
 #octobounce {
-    animation: bounce 0.35s ease infinite alternate;
+    animation: bounce 0.80s ease infinite alternate;
 }
 
 @keyframes bounce {
         from {transform: translateY(0);}
-        to   {transform: translateY(-30px);}
+        to   {transform: translateY(-20px);}
 }
-
 
 .octo {
     margin: -3em 0 0 5em;
+}
+
+/* CSS MAIN + FOOTER RESPONSIVE RESOLUTION TABLETTE */
+@media all and (max-width: 780px) {
+
+    .description {
+        clip-path: circle(45% at 45% 45%);
+        background-color: white;
+        margin: 5em 0 0 0;
+        width: 45em;
+        height: 34em;
+        z-index: 1;
+    }
+
+    #atom2 {
+        width: 3em;
+        margin: 2.5em 0 0 10em;
+    }
+    
+    .present {
+        padding: 1em 5em 0 1em;
+        font-size: 14px;
+    }
+    
+    .icones {
+        margin: 1em 0 0 8em; 
+    }
+    
+    .icones i {
+        font-size: 25px;
+    }
+    
+    #rocketatom {
+        width: 16em;
+        margin: 3.5em 0 0 -7em;
+        transform: rotate(-2deg);
+    }
+    
+    .slogan1 {
+        margin: 5em 1em 0 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+    }
+    
+    #planetatom {
+        width: 15em;
+        margin: -7em 0 0 -8em;
+    }
+
+    table {
+        margin: -4em 0 0 7em;
+        font-size: 15px;
+        width: 10em;
+    }
+
+    .button1 {
+        padding: 0.5em 1em 0.5em 1em;
+        font-size: 13px;
+    }
+
+    .octo {
+        margin: -12em 0 0 -1.5em;
+    }
+
+    #octobounce {
+        width: 8em;
+    }
+
+    .screenshot {
+        z-index: 1;
+    }
+    
+    #screenatom {
+        width: 27em;
+        margin: -13em 0 0 -0.8em;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+    }
+
 }
 
 /* CSS FOOTER */
@@ -233,4 +322,17 @@ footer {
     margin: 0 2em 0 0;
     opacity: 80%;
     padding-top: 0.5em;
+}
+
+#iconeA {
+    width: 2em;
+    margin-top: 0.2em;
+}
+
+#iconeS, #iconeV {
+    width: 2.1em;
+}
+
+#iconeV {
+    width: 2.2em;
 }
